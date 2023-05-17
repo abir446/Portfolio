@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@200&family=Ubuntu+Mono&display=swap');
+
+/* * {} */
+
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: #dbd6b8;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+p {
+  font-size: 60px;
+}
+
+i {
+  width: 5px;
+}
+
+#header {
+  width: 100vw;
+  height: 10vh;
+  background-color: #3C2A21;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 20px;
+  z-index: 2;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* margin: auto; */
+}
+
+nav ul li {
+  display: block;
+  padding: 5px;
+  margin: auto 1.5vw;
+}
+
+nav ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #D5CEA3;
+}
+
+nav ul li a:hover {
+  cursor: pointer;
+  /* color: rgb(34, 43, 95); */
+  color: #1A120B;
+}
+
+nav ul li:hover {
+  /* margin: auto; */
+  background-color: #dbd6b8;
+  /* width: 10px; */
+  height: 15px;
+  text-align: center;
+  /* background-color: #490b3d; */
+  border-radius: 7px;
+  /* height: 100%; */
+}
+
+#welcome-section {
+  z-index: 0;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 72px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbd6b8;
+  /* background-color: #2a2e2f; */
+}
+
+#welcome-section h1 {
+  margin: 0;
+  color: #1A120B;
+}
+
+#welcome-section span {
+  font-size: 20px;
+  color: #1A120B;
+}
+
+.more {
+  margin: 20px auto;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.des {
+  font-size: 20px;
+  color: #1A120B;
+  margin: 0;
+}
+
+@keyframes header {
+  from {
+    left: 100px;
+  }
+
+  to {
+    left: 0px;
+  }
+}
+
+#welcome-section {
+  position: relative;
+  animation: header 2s 1;
+}
+
+#projects {
+  position: relative;
+  animation: header 3s 1;
+}
+
+#pro {
+  position: relative;
+  animation: header 5s 1;
+}
+
+
+
+
+#headdesc {
+  color: #1A120B;
+  font-size: 50px;
+}
+
+#projects {
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+  background-color: #E5E5CB;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#project-heading {
+  padding-top: 70px;
+  color: #1A120B;
+}
+
+.project-section {
+  width: 80vw;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #E5E5CB; */
+}
+
+.project {
+  border: 5px solid #1A120B;
+  border-radius: 10px;
+  /* width: 20vw; */
+  padding: 2px;
+  margin: 10px;
+}
+
+#project-heading {
+  font-family: 'Pathway Extreme', sans-serif;
+  font-size: 60px;
+  color: #1A120B;
+  margin-top: -20px;
+}
+
+.project-image {
+  width: 20vw;
+  height: 25vh;
+}
+
+.project-title {
+  color: #1A120B;
+  font-size: 20px;
+}
+
+.profile {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E5CB;
+  z-index: 0;
+}
+
+.links ul {
+  display: flex;
+  gap: 25px;
+  margin: auto;
+  padding: 0;
+}
+
+.links ul li {
+  list-style-type: none;
+  padding: 15px;
+}
+
+.links ul li:hover {
+  cursor: pointer;
+
+}
+#networkHead{
+
+  color: #1A120B;
+
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: #1A120B;
+  font-size: 20px;
+}
+
+.links ul li a:hover {
+  color: #D5CEA3;
+}
+
+.profile {
+  background-color: #D5CEA3;
+}
+
+#cont {
+  color: #3C2A21;
+}
+
+footer {
+  /* background-color: #f6f5f4; */
+  /* color: black; */
+  padding: 15px;
+  /* width: 100%; */
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: auto;
+  position: relative;
+  bottom: 0;
+}
+
+footer p {
+  font-size: 10px;
+  margin: auto;
+  padding: 0;
+}
+
+.project a {
+  text-decoration: none;
+  list-style-type: none;
+  color: rgb(54, 48, 48);
+}
+
+#allprojects {
+  background: #1A120B;
+  color: #D5CEA3;
+  padding: 10px;
+  border: 1px solid #1A120B;
+  border-radius: 5px;
+  font-size: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+@media (min-width: 764px) and (max-width: 1000px) {
+  h1 {
+    font-size: 75px;
+  }
+
+  p {
+    font-size: 55px;
+  }
+
+  #projects {
+    height: 100vh;
+    /* min-height: 700px; */
+  }
+
+  .project-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    margin-bottom: 20px;
+  }
+
+  .project-image {
+    width: 45vw;
+    height: 30vh;
+    max-height: 200px;
+  }
+
+  .links ul li {
+    width: 50x;
+    height: 50px;
+    color: #1A120B;
+  }
+
+  .links ul li a {
+    width: 40x;
+    height: 40px;
+    color: #1A120B;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+  }
+
+  footer p {
+    font-size: 16px;
+  }
+
+}
+
+
+@media (min-width: 350px) and (max-width: 764px) {
+
+  #welcome-section {
+    left: 0;
+    height: 95vh;
+  }
+
+  #header {
+    height: 30px;
+  }
+
+  nav {
+    background-color: #3C2A21;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+  }
+
+  h1,
+  #project-heading,
+  #networkHead {
+    font-size: 35px;
+  }
+
+  #headdesc {
+    font-size: 25px;
+  }
+
+  .project-tile {
+    width: 80vw;
+  }
+
+  .project-image {
+    width: 75vw;
+    margin: auto;
+  }
+
+  #cont {
+    font-size: 25px;
+  }
+
+  .des {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .links ul li a {
+    font-size: 15px;
+  }
+
+  .project-section {
+    overflow-y: scroll;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-height: 400px) {
+  #projects {
+    height: 120vh;
+    min-height: 700px;
+  }
+}
+
+@media (min-width: 1000px) {
+  @keyframes header {
+    from {
+      left: 400px;
+    }
+
+    to {
+      left: 0px;
+    }
+  }
+
+  #welcome-section h1 {
+    position: relative;
+    animation: header 3s 1;
+  }
+
+  @keyframes para {
+    from {
+      left: 400px;
+    }
+
+    to {
+      left: 0px;
+    }
+  }
+}
+
+@media (max-height: 930px) and (max-width: 500px) {
+  #welcome-section {
+    height: 80vh;
+  }
+
+  #header {
+    height: 30px;
+  }
+
+  .profile {
+    height: 80vh;
+  }
+
+  #projects {
+    max-height: 90vh;
+  }
+
+  .project-section {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+}
+
+.project-tile-html{
+  width: 85vw;
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@200&family=Ubuntu+Mono&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #dbd6b8;
+    overflow-x: hidden;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #header {
+    width: 100vw;
+    height: 10vh;
+    background-color: #3C2A21;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+    z-index: 2;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* height: 8vh  ; */
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin: auto; */
+  }
+  
+  nav ul li {
+    display: block;
+    padding: 5px;
+    margin: auto 1.5vw;
+    margin-top: 2vh;
+  }
+  
+  nav ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #D5CEA3;
+  }
+  
+  nav ul li a:hover {
+    cursor: pointer;
+    /* color: rgb(34, 43, 95); */
+    color: #1A120B;
+  }
+  
+  nav ul li:hover {
+    /* margin: auto; */
+    background-color: #dbd6b8;
+    /* width: 10px; */
+    /* height: 15px; */
+    text-align: center;
+    /* background-color: #490b3d; */
+    border-radius: 7px;
+    /* height: 100%; */
+  }
+
+  @keyframes header {
+    from {
+      left: 100px;
+    }
+  
+    to {
+      left: 0px;
+    }
+  }
+
+  #projects{
+    margin-top: 15vh;
+    margin-bottom: 30px;
+    width: 80vw;
+  max-width: 1100px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: #E5E5CB; */
+  }
+  .project {
+    border: 5px solid #1A120B;
+    border-radius: 10px;
+    /* width: 20vw; */
+    padding: 2px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .showcase{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-image {
+    width: 20vw;
+    height: 25vh;
+  }
+  
+  .project-title {
+    color: #1A120B;
+    font-size: 20px;
+  }
+
+  footer{
+    position: relative;
+    bottom: 0;
+  }
+  .project-title{
+    text-align: center;
+  }
+
+  @media (max-width: 1200px)
+  {
+    .showcase{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+    .project-image{
+        width: 75vw;
+    }
+  }
