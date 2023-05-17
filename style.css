@@ -65,17 +65,18 @@ nav ul li a:hover {
   cursor: pointer;
   /* color: rgb(34, 43, 95); */
   color: #1A120B;
+  background-color: #dbd6b8;
 }
 
 nav ul li:hover {
   /* margin: auto; */
-  background-color: #dbd6b8;
   /* width: 10px; */
   height: 15px;
   text-align: center;
   /* background-color: #490b3d; */
   border-radius: 7px;
   /* height: 100%; */
+  
 }
 
 #welcome-section {
