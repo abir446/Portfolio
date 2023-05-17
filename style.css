@@ -345,7 +345,7 @@ footer p {
 }
 
 
-@media (min-width: 350px) and (max-width: 764px) {
+@media (min-width: 340px) and (max-width: 764px) {
 
   #welcome-section {
     left: 0;
@@ -389,6 +389,7 @@ footer p {
   .des {
     font-size: 15px;
     margin: 0;
+    
   }
 
   .links ul li a {
@@ -472,4 +473,11 @@ footer p {
   width: 85vw;
   display: flex;
   flex-direction: row;
+}
+
+@media (max-width: 396px)
+{
+  .des{
+    font-size: 13px;
+  }
 }
