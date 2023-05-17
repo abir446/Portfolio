@@ -66,6 +66,7 @@ nav ul li a:hover {
   /* color: rgb(34, 43, 95); */
   color: #1A120B;
   background-color: #dbd6b8;
+  border-radius: 5px;
 }
 
 nav ul li:hover {
